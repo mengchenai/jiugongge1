@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+.container{
+	margin: 30px auto;
+	width:1000px;
+	background-color: red;
+}
+.container div{
+	float: left;
+	padding: 30% 0 0 0;
+    margin: 0 3% 3% 0;
+    width: 30%;
+	border-radius: 15px;
+	background-color: orange;
+}
+/************媒体查询******************/
+@media only screen and (max-width: 1300px) {
+	.container{width: 80%;}
+}
+@media only screen and (max-width: 899px) {
+	.container{width: 80%;}
+}
+@media only screen and (max-width: 768px) {
+	.container{width: 90%;}
+}
